@@ -1,0 +1,38 @@
+CRITICAL - 2022-06-09 05:22:44 --> Undefined array key 1
+in APPPATH\Views\home.php on line 95.
+ 1 APPPATH\Views\home.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Pages.php(9): view()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 05:42:00 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\kurs\app\Controllers\Pages.php on line 9
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\Pages.php(9): view()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pages->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 05:53:32 --> Cannot redeclare get_web_page() (previously declared in C:\xampp\htdocs\kurs\app\Views\home.php:68)
+in APPPATH\Views\layout\tabel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-06-09 05:55:28 --> Cannot redeclare get_web_page() (previously declared in C:\xampp\htdocs\kurs\app\Views\home.php:68)
+in APPPATH\Views\home.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-06-09 06:00:13 --> Undefined array key 1
+in APPPATH\Views\home.php on line 95.
+ 1 APPPATH\Views\home.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Pages.php(9): view()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
